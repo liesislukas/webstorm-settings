@@ -1,0 +1,13 @@
+<keymap version="1" name="Default copy 1" parent="$default">
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+</keymap>

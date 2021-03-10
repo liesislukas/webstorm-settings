@@ -1,0 +1,150 @@
+<templateSet group="Mano">
+  <template name="mu" value="moment().unix()" description="moment().unix()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mm" value="const moment = require('moment');" description="const moment = require('moment');" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="me" value="module.exports = " description="module.exports =" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="le" value="logger.error(`#aaaaaaaaaaaa $END$`)" description="logger.error(`#aaaaaaaaaaaa `)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log(`#$RANDOM$ $STOP$`, $END$)" description="console.log(`#.... `)" toReformat="true" toShortenFQNames="true">
+    <variable name="RANDOM" expression="time(&quot;YDHmsS&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lg" value="const _get = require('lodash/get');" description="const _get = require('lodash/get');" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ls" value="const _set = require('lodash/set');" description="const _set = require('lodash/set');" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="js" value="JSON.stringify($END$)" description="JSON.stringify()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ld" value="logger.debug(`#aaaaaaaaaaaa $END$`)" description="logger.debug(`#aaaaaaaaaaaa `)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pa" value="const results = await Promise.all(data.map(async (doc) =&gt; await helper({doc})));&#10;$END$" description="Promise.all" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ie" value="{error: {code: '#werifgdjig4', message: 'INTERNAL_ERROR'}, data: null}" description="INTERNAL_ERROR" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifs" value="if(_get($VAR$, 'data.success') !== true) {&#10;  $END$&#10;}" description="if success" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if(_get($VAR$, 'error.message')) {&#10;  $END$&#10;}" description="if error" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="r" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="re" value="return {error: {code: '#aaaaaaaaa', message: 'INVALID_$ENG$'}, data: null};" description="return error" toReformat="true" toShortenFQNames="true">
+    <variable name="ENG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rs" value="return {error: null, data: {success: true, $END$}};" description="return success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ed" value="export default " description="export default" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cw" value="console.warn(`#aaaaaaaaaaaa $STOP$`, $END$)" description="console.warn(`#aaaaaaaaaaaa `)" toReformat="false" toShortenFQNames="true">
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="a" value="aaaaaaaaaaaa" description="aaaaaaaaaaaa" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="const changeCase = require('change-case');" description="const changeCase = require('change-case');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ig" value="import _get from 'lodash/get';" description="import _get from 'lodash/get';" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="is" value="import _set from 'lodash/set';" description="import _set from 'lodash/set';" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="adf" value="advancedFilters: {&#10;  $and: [&#10;    {field: 'productId', comparison: '=', isRequired: true, value: productId},&#10;  ],&#10;},&#10;" description="advancedFilters" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ds" value="if (_get($1$, 'data.success') !== true) {&#10;  console.error(`#$STOP$ failed to aaaaaaa: `, JSON.stringify($1$));&#10;}$END$" description="database success?" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dbns" value="if (_get($VAR1$, 'data.success') !== true) {&#10;    console.error(`#$VAR2$ failed to update at db: `, JSON.stringify($VAR1$));&#10;}" description="database not success?" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ce" value="console.error(`#$RANDOM$ $STOP$`, $END$)" description="console.error(`#.... `)" toReformat="true" toShortenFQNames="true">
+    <variable name="RANDOM" expression="time(&quot;YDHmsS&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ase" value="(async () =&gt; {&#10;  const res = await $helper$({&#10;&#10;  });&#10;  console.log(`#2020285222932874 $helper$ res`, res);&#10;})();&#10;" description="async self executing function" toReformat="false" toShortenFQNames="true">
+    <variable name="helper" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

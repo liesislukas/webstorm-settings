@@ -1,0 +1,25 @@
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2019-02-21T11:52:31</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2018.3.4.0.0</property>
+    <property name="modified">2019-07-17T00:32:57</property>
+    <property name="originalScheme">Default</property>
+  </metaInfo>
+  <attributes>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="ffb9a6" />
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="NOT_USED_ELEMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="BACKGROUND" value="ffe5a6" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

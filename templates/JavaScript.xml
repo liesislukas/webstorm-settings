@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="sbr" value=" style={{backgroundColor: 'red'}} " description="style={{backgroundColor: 'red'}}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
