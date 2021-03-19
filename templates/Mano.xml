@@ -31,17 +31,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="js" value="JSON.stringify($END$)" description="JSON.stringify()" toReformat="false" toShortenFQNames="true">
+  <template name="js" value="JSON.stringify($END$)" description="JSON.stringify()" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pa" value="const results = await Promise.all(data.map(async (doc) =&gt; await helper({doc})));&#10;$END$" description="Promise.all" toReformat="false" toShortenFQNames="true">
+  <template name="pa" value="const results = await Promise.all(data.map(async (doc) =&gt; await helper({doc})));&#10;$END$" description="Promise.all" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ifs" value="if(_get($VAR$, 'data.success') !== true) {&#10;  $END$&#10;}" description="if success" toReformat="false" toShortenFQNames="true">
+  <template name="ifs" value="if(_get($VAR$, 'data.success') !== true) {&#10;  $END$&#10;}" description="if success" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -53,23 +53,23 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="r" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+  <template name="r" value="return $END$" description="return" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ed" value="export default " description="export default" toReformat="false" toShortenFQNames="true">
+  <template name="ed" value="export default " description="export default" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cw" value="console.warn(`#aaaaaaaaaaaa $STOP$`, $END$)" description="console.warn(`#aaaaaaaaaaaa `)" toReformat="false" toShortenFQNames="true">
+  <template name="cw" value="console.warn(`#aaaaaaaaaaaa $STOP$`, $END$)" description="console.warn(`#aaaaaaaaaaaa `)" toReformat="true" toShortenFQNames="true">
     <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cc" value="const changeCase = require('change-case');" description="const changeCase = require('change-case');" toReformat="false" toShortenFQNames="true">
+  <template name="cc" value="const changeCase = require('change-case');" description="const changeCase = require('change-case');" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -84,7 +84,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="adf" value="advancedFilters: {&#10;  $and: [&#10;    {field: 'productId', comparison: '=', isRequired: true, value: productId},&#10;  ],&#10;},&#10;" description="advancedFilters" toReformat="false" toShortenFQNames="true">
+  <template name="adf" value="advancedFilters: {&#10;  $and: [&#10;    {field: 'productId', comparison: '=', isRequired: true, value: productId},&#10;  ],&#10;},&#10;" description="advancedFilters" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -110,18 +110,18 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ase" value="(async () =&gt; {&#10;  const res = await $helper$({&#10;&#10;  });&#10;  console.log(`#2020285222932874 $helper$ res`, res);&#10;})();&#10;" description="async self executing function" toReformat="false" toShortenFQNames="true">
+  <template name="ase" value="(async () =&gt; {&#10;  const res = await $helper$({&#10;&#10;  });&#10;  console.log(`#2020285222932874 $helper$ res`, res);&#10;})();&#10;" description="async self executing function" toReformat="true" toShortenFQNames="true">
     <variable name="helper" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="de" value="let data = null;&#10;let error = null;&#10;$END$" description="data &amp; error = null" toReformat="false" toShortenFQNames="true">
+  <template name="de" value="let data = null;&#10;let error = null;&#10;$END$" description="data &amp; error = null" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ie" value="if (error === null){&#10;  $END$&#10;}" description="if error === null" toReformat="false" toShortenFQNames="true">
+  <template name="ie" value="if (error === null){&#10;  $END$&#10;}" description="if error === null" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
