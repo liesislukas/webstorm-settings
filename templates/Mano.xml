@@ -116,7 +116,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="de" value="let data = null;&#10;let error = null;" description="data &amp; error = null" toReformat="false" toShortenFQNames="true">
+  <template name="de" value="let data = null;&#10;let error = null;&#10;$END$" description="data &amp; error = null" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
