@@ -103,7 +103,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ce" value="console.error(`#$RANDOM$ $STOP$`, $END$)" description="console.error(`#.... `)" toReformat="true" toShortenFQNames="true">
+  <template name="ce" value="console.error(`#$RANDOM$ $STOP$`, $END$)" description="console.error(`#.... `)" toReformat="false" toShortenFQNames="true">
     <variable name="RANDOM" expression="time(&quot;YDHmsS&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -122,6 +122,12 @@
     </context>
   </template>
   <template name="ie" value="if (error === null){&#10;  $END$&#10;}" description="if error === null" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cee" value="console.error(`#$RANDOM$ error: `, error);" description="console.error(`#{random} error: `, error);" toReformat="true" toShortenFQNames="true">
+    <variable name="RANDOM" expression="time(&quot;YDHmsS&quot;)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
