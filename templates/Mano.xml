@@ -21,7 +21,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="lg" value="const _get = require('lodash/get');" description="const _get = require('lodash/get');" toReformat="true" toShortenFQNames="true">
+  <template name="lg" value="const _get = require('lodash.get');" description="const _get = require('lodash/get');" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
