@@ -37,6 +37,7 @@
     </formatting-settings>
   </DBN-SQL>
   <HTMLCodeStyleSettings>
+    <option name="HTML_UNIFORM_INDENT" value="true" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
@@ -64,7 +65,7 @@
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
