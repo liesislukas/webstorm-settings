@@ -21,12 +21,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="lg" value="const _get = require('lodash.get');" description="const _get = require('lodash/get');" toReformat="true" toShortenFQNames="true">
+  <template name="lg" value="const _get = require('lodash.get');" description="const _get = require('lodash.get');" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ls" value="const _set = require('lodash/set');" description="const _set = require('lodash/set');" toReformat="true" toShortenFQNames="true">
+  <template name="ls" value="const _set = require('lodash.set');" description="const _set = require('lodash.set');" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -74,12 +74,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ig" value="import _get from 'lodash/get';" description="import _get from 'lodash/get';" toReformat="true" toShortenFQNames="true">
+  <template name="ig" value="import _get from 'lodash.get';" description="import _get from 'lodash/get';" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="is" value="import _set from 'lodash/set';" description="import _set from 'lodash/set';" toReformat="true" toShortenFQNames="true">
+  <template name="is" value="import _set from 'lodash.set';" description="import _set from 'lodash/set';" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
