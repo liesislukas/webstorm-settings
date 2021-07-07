@@ -58,7 +58,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ed" value="export default " description="export default" toReformat="true" toShortenFQNames="true">
+  <template name="ed" value="export default function $END$(){}&#10;" description="export default" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
